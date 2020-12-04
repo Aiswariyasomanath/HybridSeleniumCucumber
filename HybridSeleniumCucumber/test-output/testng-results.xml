@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10443" started-at="2020-12-04T04:32:03Z" finished-at="2020-12-04T04:32:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10443" started-at="2020-12-04T04:32:03Z" finished-at="2020-12-04T04:32:14Z">
+      <class name="com.testCases.OrangeHrmLginTest">
+        <test-method status="PASS" signature="stratUp()[pri:0, instance:com.testCases.OrangeHrmLginTest@7ee55e70]" name="stratUp" is-config="true" duration-ms="8168" started-at="2020-12-04T04:32:03Z" finished-at="2020-12-04T04:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stratUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testCases.OrangeHrmLginTest@7ee55e70]" name="login" duration-ms="1393" started-at="2020-12-04T04:32:12Z" finished-at="2020-12-04T04:32:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.testCases.OrangeHrmLginTest@7ee55e70]" name="close" is-config="true" duration-ms="498" started-at="2020-12-04T04:32:13Z" finished-at="2020-12-04T04:32:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.testCases.OrangeHrmLginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
