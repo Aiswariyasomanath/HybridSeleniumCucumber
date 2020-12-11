@@ -14,7 +14,7 @@ import com.reusableFunctions.SeleniumUtilities;
 public class OrangeHrmLginTest extends Library {
 	@BeforeTest
 	public void stratUp() {
-		launchApplication("chrome","https://opensource-demo.orangehrmlive.com/");
+		//launchApplication("chrome","https://opensource-demo.orangehrmlive.com/");
 		
 	}
 	@Test

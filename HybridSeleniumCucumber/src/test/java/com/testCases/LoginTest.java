@@ -13,15 +13,18 @@ import com.reusableFunctions.SeleniumUtilities;
 public class LoginTest extends Library {
 	@BeforeTest
 	public void stratUp() {
-		launchApplication("chrome","https://facebook.com");
+		browserSetUp();
+	
+		logger.info("*******Browser has launched*********");
 	}
 	
 	@Test
 	public void login() {
 		LoginPage lpage=new LoginPage(driver);
-		lpage.loginToApp_username("sravanthi");
-		lpage.loginToApp_password("abcz1");
+		lpage.loginToApp_username(properties.getProperty("username"));
+		lpage.loginToApp_password(properties.getProperty("password"));
 		lpage.loginToApp_loginbutton();
+		logger.info("*******login successful*********");
 		
 	}
 	
@@ -29,6 +32,7 @@ public class LoginTest extends Library {
 	public void close() throws IOException {
 		SeleniumUtilities selUtil= new SeleniumUtilities(driver);
 		selUtil.to_take_screenshot("src/test/resources/ScreenShots/facebooklogin.png");
+		logger.info("*******took screenshot*********");
 		
 	}
 }
